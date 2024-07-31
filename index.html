@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Professional Web</a>
+            <ul class="nav-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-content animate__animated animate__fadeInDown">
+            <h1>Welcome to Professional Web</h1>
+            <p>Your partner in professional web development</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+    </header>
+    <main class="main">
+        <section id="about" class="section animate__animated animate__fadeInLeft">
+            <h2>About Us</h2>
+            <p>We provide professional web development services to help businesses grow online.</p>
+        </section>
+        <section id="services" class="section animate__animated animate__fadeInRight">
+            <h2>Our Services</h2>
+            <p>We offer a range of services including web design, development, and digital marketing.</p>
+        </section>
+        <section id="contact" class="section animate__animated animate__fadeInUp">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us to discuss your project and how we can help.</p>
+            <form onsubmit="submitForm(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Professional Web. All rights reserved.</p>
+        <div class="socials">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
